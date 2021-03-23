@@ -1,0 +1,96 @@
+<!-- 
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Use flexbox properties and values to create columns.
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>FlexBox | Blog and Gallery</title>
+     <link rel="stylesheet" href="assets/stylesheet/style.css">
+ </head>
+ <body>
+     <header>
+         <div class="wrap">
+             <div class="heading">
+                 <img src="assets/media/altcampus-logo.svg" alt="Logo">
+             </div>
+             <div class="link">
+                 <nav>
+                     <a href="#">HOME</a>
+                     <a href="#">GALLERY</a>
+                     <a href="#">ABOUT</a>
+                 </nav>
+             </div>
+         </div>
+     </header>
+     <main>
+         <article>
+             <div class="flex">
+                 <div class="article">
+                     <h1>
+                         MY ARTICLE
+                     </h1>
+                     <P>
+                         Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                         Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit
+                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima!
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad.
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam?
+                     </P>
+                     <p>
+                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Null
+                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus,
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor del
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitatio
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse!
+                     </p>
+                 </div>
+                 <div class="image">
+                     <img src="assets/media/cat.jpeg" alt="cat">
+                 </div>
+             </div>
+         </article>
+         <section>
+             <div class="main-container flex hero">
+                 <div class="gallery-image">
+                     <img src="assets/media/bird.jpeg" alt="bird">
+                 </div>
+                 <div class="gallery-image">
+                    <img src="assets/media/brain.jpeg" alt="bird">
+                </div>
+                <div class="gallery-image">
+                    <img src="assets/media/code.jpeg" alt="bird">
+                </div>
+                <div class="gallery-image">
+                    <img src="assets/media/code.jpeg" alt="bird">
+                </div>
+                <div class="gallery-image">
+                    <img src="assets/media/jadoo.jpeg" alt="bird">
+                </div>
+                <div class="gallery-image">
+                    <img src="assets/media/mobile.jpeg" alt="bird">
+                </div>
+             </div>
+            </section>
+            <footer class="footer">
+                <h2>
+                    &copyAltCampus
+                </h2>
+            </footer>
+     </main>
+ </body>
+ </html>
