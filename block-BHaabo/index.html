@@ -1,0 +1,102 @@
+<!-- 
+- Create a page using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box | Assignment Level II</title>
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/508c3a88fa.js" crossorigin="anonymous"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+</head>
+<body>
+     <header class="header">
+        <div class="container flex">
+            <a href="#">
+                <img src="assets/media/altcampus-logo.svg" alt="Brand Logo">
+            </a>
+            <div class="flex">
+             <a href="#">
+                <img src="assets/icons/bell.svg" alt="">
+             </a>
+             <h1>
+                Sarah Jone
+             </h1>
+             <a href="#">
+                 <img src="assets/icons/user.svg" alt="">
+             </a>
+            </div>
+        </div>
+    </header>
+ <main>
+    <section class="aside-section">
+        <aside class="container flex-1">
+              <div class="col-1-2">
+                <img src="assets/icons/dashboard.svg" alt="">
+                 <a href="#">Dashboard</a>
+              </div>
+              <div class="col-1-2">
+                <img src="assets/icons/article.svg" alt="">
+                <a href="#">Articles</a>
+              </div>
+              <div class="col-1-2">
+                <img src="assets/icons/analytics.svg" alt="">
+                <a href="#">Analytics</a>
+              </div>
+              <div class="col-1-2">
+                <img src="assets/icons/inbox.svg" alt="">
+                <a href="#">Inbox</a>
+              </div>
+              <div class="col-1-2">
+                <img src="assets/icons/setting.svg" alt="">
+                <a href="#">Settings</a>
+              </div>
+              <div class="col-1-2">
+                  <img src="assets/icons/log-out.svg" alt="">
+                  <a href="#">Log out</a>
+              </div>
+        </aside>
+    </section>
+    <section>
+       <article>
+          <div class="container flex-1">
+             <div class="col-1-4">
+                <img src="assets/media/01.png" alt="">
+             </div>
+             <div class="col-1-4">
+                <h2>
+                    Why we are Doing AltCampus
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sit ullam accusamus.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam asperiores.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, porro.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, eum!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, perferendis ipsa.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt.
+                </p>
+                <button class="col-1-4">
+                    <a href="#">Read More</a>
+                </button>
+            </div>
+        </article>
+    </section>
+ </main>
+    <footer class="footer">
+        <h2>
+            &copyAltCampus
+        </h2>
+    </footer>
+</body>
+</html>
